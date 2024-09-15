@@ -50,13 +50,6 @@ EMAIL_USER=your-email@gmail.com
 EMAIL_PASSWORD=your-app-password
 ```
 
-### 6. Prepare the Database
-- Initialize the SQLite database by running.
-  
-```bash
-python fetchdata.py
-```
-
 ## Running the System
 
 ### 1. Start the FastAPI Backend
@@ -103,6 +96,24 @@ streamlit run app.py
 - You can either paste the email in the text area 
 - You can either paste the email into the text area, or upload the downloaded email in .txt format.
 - Click "Send Email" button to send the email.
+
+### 4. My Data
+- Select the subtask: 
+  - Prospect and Company Reports
+  - Sent Email
+
+### 4.1. Viewing Stored Prospect Reports
+- Use the search bar to enter a prospect name or company name manually.
+- After entering the search query, press Enter to display the relevant research report.
+- The detailed report will include key information on the prospect and their company, gathered during the research phase.
+- You can download the research report in .txt format for offline access.
+  
+### 4.2. Viewing Sent Mails
+- Use the search bar to find specific sent emails by entering any of the following:
+  - Recipient's email address
+  - Content of the email
+  - Date sent
+- Press Enter to view the list of matching emails.
 
 #### Note:
 Replace placeholders like <directory-of-extracted-files> with the actual directory name. This plain text format provides clear, step-by-step instructions for setting up and running your system.
