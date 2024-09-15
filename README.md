@@ -55,14 +55,14 @@ EMAIL_PASSWORD=your-app-password
 ### 1. Start the FastAPI Backend
 - Run the FastAPI server.
 ```bash
-python fetchdata.py
+uvicorn backend.main:app --reload
 ```
 - The server will be accessible at http://127.0.0.1:8000.
 
 ### 2. Start the Streamlit Backend
 - Run the Streamlit application.
 ```bash
-streamlit run app.py
+streamlit run frontend/app.py
 ```
 - The server will be accessible at http://127.0.0.1:8501.
 
