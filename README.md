@@ -44,10 +44,12 @@ pip install -r requirements.txt
 - Add the following content to the .env file, replacing placeholders with your actual credentials
   
 ```makefile
-SMTP_SERVER=smtp.gmail.com
-SMTP_PORT=587
-EMAIL_USER=your-email@gmail.com
-EMAIL_PASSWORD=your-app-password
+GOOGLE_API_KEY="AIzaSyDObh_cyG1shtVrmp1mvQ_-DP2Y9P1dWLQ"
+CUSTOM_SEARCH_CX="12cb37fc598694a97"
+GEMINI_API_KEY="AIzaSyCdraiFk8epid_yat0g_D5f2s5R0zcfbaU"
+FROM_ADDRESS="your-email@gmail.com"
+APP_PASSWORD="your-app-password"
+
 ```
 ### 5.1. Getting SMTP Credentials
 - Make sure you've got the correct smtp address for your email provider:
