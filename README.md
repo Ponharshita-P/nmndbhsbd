@@ -46,7 +46,7 @@ pip install -r requirements.txt
 ```makefile
 GOOGLE_API_KEY="your_api_key"
 CUSTOM_SEARCH_CX="your_cx_key"
-GEMINI_API_KEY="AIzaSyCdraiFk8epid_yat0g_D5f2s5R0zcfbaU"
+GEMINI_API_KEY="your_api_key"
 FROM_ADDRESS="your-email@gmail.com"
 APP_PASSWORD="your-app-password"
 
