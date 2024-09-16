@@ -44,8 +44,8 @@ pip install -r requirements.txt
 - Add the following content to the .env file, replacing placeholders with your actual credentials
   
 ```makefile
-GOOGLE_API_KEY="AIzaSyDObh_cyG1shtVrmp1mvQ_-DP2Y9P1dWLQ"
-CUSTOM_SEARCH_CX="12cb37fc598694a97"
+GOOGLE_API_KEY="your_api_key"
+CUSTOM_SEARCH_CX="your_cx_key"
 GEMINI_API_KEY="AIzaSyCdraiFk8epid_yat0g_D5f2s5R0zcfbaU"
 FROM_ADDRESS="your-email@gmail.com"
 APP_PASSWORD="your-app-password"
@@ -72,10 +72,21 @@ APP_PASSWORD="your-app-password"
 - Click on "Show Key" to reveal and copy your API key for use in your application.
 
 ### 5.3. Getting Gemini API Key
-- Go to [/gemini-api/docs/api-key](https://ai.google.dev/gemini-api/docs/api-key).
+- Go to [gemini-api/docs/api-key](https://ai.google.dev/gemini-api/docs/api-key).
 - Locate and click on the "Get a API key" button within the page body.
 - Create a new project and provide a name for your application.
 - Click on "Show Key" to reveal and copy your API key for use in your application.
+
+### 5.4. Getting CSE ID to Create a new Search Engine
+- Go to [programmablesearchengine.google.com/](https://programmablesearchengine.google.com/controlpanel/create).
+- Name your search engine
+- Add Wikipedia in the option "Search specific sites or pages".
+- You can add any of the following:
+  - Individual pages: www.example.com/page.html
+  - Entire site: www.mysite.com/*
+  - Parts of site: www.example.com/docs/* or www.example.com/docs/
+  - Entire domain: *.example.com
+- Click create to view to CSE ID copy it for use.
 
 ## Running the System
 
