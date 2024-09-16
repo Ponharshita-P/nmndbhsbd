@@ -78,7 +78,7 @@ APP_PASSWORD="your-app-password"
 - Click on "Show Key" to reveal and copy your API key for use in your application.
 
 ### 5.4. Getting CSE ID to Create a new Search Engine
-- Go to [programmablesearchengine.google.com/](https://programmablesearchengine.google.com/controlpanel/create).
+- Go to [programmablesearchengine.com/](https://programmablesearchengine.google.com/controlpanel/create).
 - Name your search engine
 - Add Wikipedia in the option "Search specific sites or pages".
 - You can add any of the following:
