@@ -49,6 +49,31 @@ SMTP_PORT=587
 EMAIL_USER=your-email@gmail.com
 EMAIL_PASSWORD=your-app-password
 ```
+### 5.1. Getting SMTP Credentials
+- Make sure you've got the correct smtp address for your email provider:
+  - Gmail: smtp.gmail.com
+  - Hotmail: smtp.live.com
+  - Outlook: outlook.office365.com
+  - Yahoo: smtp.mail.yahoo.com
+- If you use another email provider, just Google for your email provider e.g. "Gmail SMTP address"
+- Go to [https://myaccount.google.com/](https://myaccount.google.com/).
+- Select Security on the left and scroll down to How you sign in to Google.
+- There you can add an App password.
+- Select give your app a name e.g., Python Mail and click create.
+- *COPY THE PASSWORD* - This is the only time you will ever see the password. It is 16 characters with no spaces.
+- Use this App password in your Python code instead of your normal password.
+
+### 5.2. Getting Google Custom API Key
+- Go to [google.com/custom-search/](https://developers.google.com/custom-search/v1/introduction).
+- Locate and click on the "Get a key" button within the page body.
+- Create a new project and provide a name for your application.
+- Click on "Show Key" to reveal and copy your API key for use in your application.
+
+### 5.3. Getting Gemini API Key
+- Go to [/gemini-api/docs/api-key](https://ai.google.dev/gemini-api/docs/api-key).
+- Locate and click on the "Get a API key" button within the page body.
+- Create a new project and provide a name for your application.
+- Click on "Show Key" to reveal and copy your API key for use in your application.
 
 ## Running the System
 
@@ -65,7 +90,6 @@ uvicorn backend.main:app --reload
 streamlit run frontend/app.py
 ```
 - The server will be accessible at http://127.0.0.1:8501.
-
 
 ## Usage
 
